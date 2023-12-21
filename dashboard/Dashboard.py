@@ -35,7 +35,7 @@ def create_payment_df(df):
     payment_df = df.groupby(by="payment_type")["order_id"].nunique().reset_index()
     return payment_df
 
-all_df = pd.read_csv("all_data (1).csv")
+all_df = pd.read_csv("https://media.githubusercontent.com/media/mrizkifadhilla82/Proyek-analisis-data-Muhammad-Rizki-Fadhilla/main/dashboard/all_data%20(1).csv")
 
 all_df.sort_values(by="order_purchase_timestamp", inplace=True)
 all_df.reset_index(inplace=True)
