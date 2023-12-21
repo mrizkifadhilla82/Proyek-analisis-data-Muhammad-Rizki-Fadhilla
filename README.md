@@ -1,1 +1,11 @@
-# Proyek-analisis-data-Muhammad-Rizki-Fadhilla
+# E-Commerce Public Dataset Dashboard
+## Setup Environtment
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+```
+## Run Streamlit App
+```
+streamlit run Dashboard.py
+```
